@@ -1,0 +1,32 @@
+Components:
+
+Weather Class:
+
+
+Initialization: Sets up variables for latitude, longitude, and API ID.
+User Interaction: Provides options for users to check live weather, change location, or exit.
+Location Handling:
+Fetches the current location automatically using geocoder based on IP address.
+Allows users to enter a location manually if automatic retrieval fails.
+Weather Retrieval: Fetches weather data based on the provided coordinates using OpenWeatherMap API.
+Air_Quality Class (Subclass of Weather):
+
+
+Inherits Weather class functionalities.
+Initialization: Inherits Weather class's initialization to set up latitude, longitude, and API ID.
+Air Quality Retrieval: Fetches air quality data based on the provided coordinates using OpenWeatherMap API.
+Summary:
+The project allows users to interactively access weather and air quality information.
+It utilizes APIs from OpenWeatherMap for weather and air quality data.
+Provides flexibility for users to input their location manually or fetch it automatically.
+Handles errors during location retrieval and displays appropriate messages.
+Improvements:
+Error Handling: Enhance error handling to provide more detailed error messages for user guidance.
+UI Enhancement: Consider implementing a graphical interface for better user interaction and visual presentation.
+Optimization: Refactor code for better modularity and readability, possibly breaking down functionalities into smaller, more manageable methods.
+
+problems arrived:
+1)train api not working after covid
+2)in learning about api and how to handle request
+3)automatic location detection not getting accurate location 
+4)
