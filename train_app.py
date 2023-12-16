@@ -8,7 +8,6 @@ class Weather:
        user_input=input('''how would you like to proceed?
         1.Enter 1 to check live weather?
         2.Enter 2 to change your location?
-        3.Enter 3 to exit''')
        self.get_current_location()
       
        if user_input=="1":
