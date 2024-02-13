@@ -1,5 +1,5 @@
 import requests
-import geocoder     
+import geocoder      
 class Weather:     
     def __init__(self):
        self.lat=None
