@@ -1,11 +1,17 @@
 import requests
-import geocoder
-class Weather:
+import geocoder      
+class Weather:     
     def __init__(self):
        self.lat=None
        self.lon=None
        self.api_id="92fc3554ba998907785a2ac38649a541"
+<<<<<<< HEAD
 
+=======
+       user_input=input('''how would you like to proceed?
+        1.Enter 1 to check live weather?
+        2.Enter 2 to change your location?
+>>>>>>> 0cd2fad800a9a403051e7fa200f3024f12bdaeaa
        self.get_current_location()
 
     def get_weather(self,lati,longi):
