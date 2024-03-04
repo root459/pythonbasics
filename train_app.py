@@ -5,20 +5,8 @@ class Weather:
        self.lat=None
        self.lon=None
        self.api_id="92fc3554ba998907785a2ac38649a541"
-       user_input=input('''how would you like to proceed?
-        1.Enter 1 to check live weather?
-        2.Enter 2 to change your location?
-        3.Enter 3 to exit''')
+
        self.get_current_location()
-      
-       if user_input=="1":
-        print("live weather")
-       elif user_input=="2":
-        print("location change")
-       elif user_input=="3":
-        print("Exit")
-       elif user_input=="4":
-        print("get air pollution")
 
     def get_weather(self,lati,longi):
        self.lat=lati
