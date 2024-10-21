@@ -1,9 +1,9 @@
 import requests
 import geocoder      
-class Weather:     
+class Weather:      
     def __init__(self):
        self.lat=None
-       self.lon=None
+       self.lon=None  
        self.api_id="92fc3554ba998907785a2ac38649a541"
 <<<<<<< HEAD
 
